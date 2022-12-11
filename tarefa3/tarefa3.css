@@ -90,7 +90,7 @@ main {
     text-align: center;
     width: 80%;
     margin: auto;
-    height: 1000px;
+    height: auto;
 }
 
 .beef {
@@ -98,7 +98,7 @@ main {
     text-align: center;
     width: 80%;
     margin: auto;
-    height: 1000px;
+    height: auto;
 }
 
 .sushi {
@@ -106,6 +106,6 @@ main {
     text-align: center;
     width: 80%;
     margin: auto;
-    height: 1000px;
+    height: auto;
 
 }
