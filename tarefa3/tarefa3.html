@@ -4,33 +4,90 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./tarefa3.css"
     <title>Tarefa3</title>
+    <link rel="stylesheet" href="tarefa3.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
 </head>
+
 <body>
 
-    <script src="mobile.navbar.js">
-
-    </script>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="mobile.navbar.js"></script>
  <header>
-    <nav>
 
-        <a class="logo" href="/">Tiger Codes</a>
-        <div class="mobile-menu">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
+    <nav class="navbar navbar-expand-lg bg-secondary">
+        <div class="container-fluid">
+          <a class="navbar-brand bg-secondary" href="#" id="chicken">Food, LLC</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav text-center bg-light">
+              <li class="nav-item border border-dark">
+                <a class="nav-link active" aria-current="page" href="#chicken">Chicken</a>
+              </li>
+              <li class="nav-item border border-dark">
+                <a class="nav-link" href="#beef">Beef</a>
+              </li>
+              <li class="nav-item border border-dark">
+                <a class="nav-link" href="#sushi">Sushi</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <ul class="nav-list">
-            <li><a href="/">Início</a></li>
-            <li><a href="/">Sobre</a></li>
-            <li><a href="/">Projetos</a></li>
-            <li><a href="/">Contato</a></li>
-        </ul>
-    </nav>
+      </nav>
+
  </header>
  <main>
+    <div id="texto">
+        <br>
+        <h1 class="text-center">Our menu</h1>
+        <br>
+        <br>
+    </div>
+
+    <div class="sushi" id="chicken">
+        <h2>Chicken</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, et labore harum nobis ex sint voluptatem recusandae corporis obcaecati est eaque iste commodi, temporibus dolore odit nulla libero autem. Quia.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis obcaecati dolor perferendis, doloribus labore praesentium nesciunt atque ducimus, aperiam rem suscipit totam consectetur consequatur repellat itaque quos temporibus eum repellendus?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. At dolore obcaecati quae, tenetur adipisci recusandae minus saepe voluptatum, nemo ipsum sunt velit ex repellat consequatur unde odit cupiditate quidem? Repellat?
+            Pariatur, quo numquam? Blanditiis omnis repellat debitis accusantium sit. Dolores magni culpa id vitae similique alias eveniet nisi ullam maiores, quisquam dolore dolorum consectetur et eum voluptatum voluptatem eos possimus?
+            Quidem animi dignissimos quibusdam nesciunt exercitationem rem at est, aspernatur non assumenda, sint, tempore nostrum! Omnis necessitatibus quos ut molestias ea deserunt impedit id fugit, sint, et praesentium. Saepe, a.
+            Alias dolore rem voluptatem pariatur facere, ipsum, aperiam necessitatibus rerum praesentium earum fuga debitis! Minus dolores magni iste nemo alias saepe consequatur reiciendis praesentium voluptatum, voluptatem quos exercitationem laboriosam voluptatibus.
+            Neque aliquam velit facere doloribus quae incidunt, ducimus commodi, sunt eveniet a ratione. Ratione laboriosam magnam praesentium! Nesciunt reiciendis, autem mollitia distinctio voluptatum ut dolore veniam magni quos perspiciatis nam.
+            Eaque, distinctio dolore ut sequi suscipit quos, voluptates eligendi alias repellendus in debitis asperiores, blanditiis nobis delectus esse pariatur! Alias eos nulla dolorem corrupti vel a ex ad ut accusamus?
+            Impedit alias, at vero repellat fugit, velit officiis, beatae non minima necessitatibus voluptatem. Odit laudantium deserunt, delectus dolorem quis molestias excepturi iste sapiente sunt quod blanditiis cupiditate, accusantium, quam odio!
+        </p>
+    </div>
+
+    <div class="sushi" id="beef">
+        <h2>Beef</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, et labore harum nobis ex sint voluptatem recusandae corporis obcaecati est eaque iste commodi, temporibus dolore odit nulla libero autem. Quia.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis obcaecati dolor perferendis, doloribus labore praesentium nesciunt atque ducimus, aperiam rem suscipit totam consectetur consequatur repellat itaque quos temporibus eum repellendus?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. At dolore obcaecati quae, tenetur adipisci recusandae minus saepe voluptatum, nemo ipsum sunt velit ex repellat consequatur unde odit cupiditate quidem? Repellat?
+            Pariatur, quo numquam? Blanditiis omnis repellat debitis accusantium sit. Dolores magni culpa id vitae similique alias eveniet nisi ullam maiores, quisquam dolore dolorum consectetur et eum voluptatum voluptatem eos possimus?
+            Quidem animi dignissimos quibusdam nesciunt exercitationem rem at est, aspernatur non assumenda, sint, tempore nostrum! Omnis necessitatibus quos ut molestias ea deserunt impedit id fugit, sint, et praesentium. Saepe, a.
+            Alias dolore rem voluptatem pariatur facere, ipsum, aperiam necessitatibus rerum praesentium earum fuga debitis! Minus dolores magni iste nemo alias saepe consequatur reiciendis praesentium voluptatum, voluptatem quos exercitationem laboriosam voluptatibus.
+            Neque aliquam velit facere doloribus quae incidunt, ducimus commodi, sunt eveniet a ratione. Ratione laboriosam magnam praesentium! Nesciunt reiciendis, autem mollitia distinctio voluptatum ut dolore veniam magni quos perspiciatis nam.
+            Eaque, distinctio dolore ut sequi suscipit quos, voluptates eligendi alias repellendus in debitis asperiores, blanditiis nobis delectus esse pariatur! Alias eos nulla dolorem corrupti vel a ex ad ut accusamus?
+            Impedit alias, at vero repellat fugit, velit officiis, beatae non minima necessitatibus voluptatem. Odit laudantium deserunt, delectus dolorem quis molestias excepturi iste sapiente sunt quod blanditiis cupiditate, accusantium, quam odio!
+        </p>
+    </div>
+
+    <div class="sushi" id="sushi">
+        <h2>Sushi</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, et labore harum nobis ex sint voluptatem recusandae corporis obcaecati est eaque iste commodi, temporibus dolore odit nulla libero autem. Quia.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis obcaecati dolor perferendis, doloribus labore praesentium nesciunt atque ducimus, aperiam rem suscipit totam consectetur consequatur repellat itaque quos temporibus eum repellendus?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. At dolore obcaecati quae, tenetur adipisci recusandae minus saepe voluptatum, nemo ipsum sunt velit ex repellat consequatur unde odit cupiditate quidem? Repellat?
+            Pariatur, quo numquam? Blanditiis omnis repellat debitis accusantium sit. Dolores magni culpa id vitae similique alias eveniet nisi ullam maiores, quisquam dolore dolorum consectetur et eum voluptatum voluptatem eos possimus?
+            Quidem animi dignissimos quibusdam nesciunt exercitationem rem at est, aspernatur non assumenda, sint, tempore nostrum! Omnis necessitatibus quos ut molestias ea deserunt impedit id fugit, sint, et praesentium. Saepe, a.
+            Alias dolore rem voluptatem pariatur facere, ipsum, aperiam necessitatibus rerum praesentium earum fuga debitis! Minus dolores magni iste nemo alias saepe consequatur reiciendis praesentium voluptatum, voluptatem quos exercitationem laboriosam voluptatibus.
+            Neque aliquam velit facere doloribus quae incidunt, ducimus commodi, sunt eveniet a ratione. Ratione laboriosam magnam praesentium! Nesciunt reiciendis, autem mollitia distinctio voluptatum ut dolore veniam magni quos perspiciatis nam.
+            Eaque, distinctio dolore ut sequi suscipit quos, voluptates eligendi alias repellendus in debitis asperiores, blanditiis nobis delectus esse pariatur! Alias eos nulla dolorem corrupti vel a ex ad ut accusamus?
+            Impedit alias, at vero repellat fugit, velit officiis, beatae non minima necessitatibus voluptatem. Odit laudantium deserunt, delectus dolorem quis molestias excepturi iste sapiente sunt quod blanditiis cupiditate, accusantium, quam odio!
+        </p>
+    </div>
 
  </main>
 </body>
