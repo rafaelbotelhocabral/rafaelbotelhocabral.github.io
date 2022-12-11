@@ -1,0 +1,406 @@
+body{
+
+background-color: #002434;
+color: white;
+margin: 0px;
+padding: 0 20%;
+font-family: Verdana;
+
+
+}
+
+.conteudo{
+
+padding: 20px;
+background-color: white;
+padding-bottom: 0px;
+
+
+}
+
+
+.conteudo .surf h1{
+
+font-family: Verdana;
+font-size: 60px;
+margin: 0px;
+font-weight: 10;
+
+}
+.conteudo .surf h3{
+
+    margin-bottom: 120px;
+    margin-top: 0;
+    font-size: 15px;
+    font-weight: 100;
+
+
+}
+
+
+
+
+
+
+.conteudo .texto {
+
+display: flex;
+column-gap: 15px;
+
+}
+
+.conteudo .texto .bloco{
+
+padding: 15px;
+background-color: #0076aa;
+width: 20%;
+
+
+
+}
+
+
+.conteudo .texto .bloco button{
+
+font-size: 18px;
+color: white;
+background-color:#00a1de ;
+border: none;
+padding: 10px;
+border-radius:  4px;
+
+
+
+background-image: linear-gradient(#2dc0f5, #288abc);
+
+
+}
+
+
+.conteudo .surf {
+
+    margin-bottom: 20px;
+    color: white;
+    padding: 50px;
+    font-family: Verdana;
+    background-image:url(../trabalho2/surf2.png) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0px -100px;
+    margin: 0px;
+    margin-bottom: 20px;
+
+}
+
+
+header {
+padding: 15px;
+display: flex;
+flex-wrap: nowrap;
+align-items: center;
+font-family: Verdana;
+
+
+}
+
+header .menu {
+
+flex-grow: 4;
+
+
+
+
+
+
+
+}
+
+header nav.menu ul li a{
+
+font-size: 12px;
+
+
+}
+
+
+
+
+
+.conteudo .contender .texto .bloco{
+
+margin:0px;
+background-color: white;
+color: black;
+padding-left:0px ;
+
+}
+
+
+
+.conteudo .texto .bloco h1{
+
+font-weight: 100;
+margin-top: 0px;
+
+}
+
+
+
+
+.conteudo .texto .bloco{
+
+
+width: 30%;
+padding: 15px;
+column-gap: 15px;
+
+}
+
+
+
+
+.conteudo .texto .bloco p{
+
+font-weight: 10px;
+margin-top: 0px;
+
+
+}
+
+
+ header nav.menu ul{
+
+flex-grow: 4; 
+font-size: 12px;
+margin: 0;
+
+
+
+}
+
+header .logo h1{
+
+margin: 0px;
+font-weight: 100;
+font-size: 28px;
+
+
+}
+
+header .logo span{
+
+margin-bottom: 20px; 
+color: #00a1de;
+
+}
+
+header nav.menu li a{
+
+font-size: 15px;
+text-align: center;
+
+
+
+}
+
+
+header .menu ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-inline-start: 0px;
+
+}
+
+
+nav.menu li a:hover{
+
+
+color: #00a1de;
+
+}
+
+nav.menu li a{
+
+color: white;
+text-decoration: none;
+
+
+}
+
+
+
+
+.conteudo .contender .texto .bloco h1{
+
+
+font-family: Verdana;
+font-size: 120%;
+
+
+}
+
+
+
+.conteudo .contender .texto .bloco p.depoimento{
+
+
+    background-color:#b9e2e9;
+    font-size: small;
+    margin-left: 2px;
+    padding: 24px;
+    padding-bottom: 18px;
+    
+    
+
+}
+
+.conteudo .contender .texto .bloco p#samanta{
+
+font-size: 65%;
+padding-left: 3px;
+padding-top: 0px;
+background-color: #0076aa;
+    
+
+}
+
+.conteudo .contender .texto .bloco h1.depoiment{
+
+
+margin-left: 2px;
+
+
+
+}
+
+
+
+footer div#rodape p{
+
+
+background-color: #002434;
+font-family: Verdana;
+font-weight: bold;
+font-size:medium;
+padding-top: 20px;
+padding-bottom: 10px;
+
+
+}
+
+
+.conteudo .contender .texto .bloco p{
+
+font-size: 14px;
+font-weight: 10px;
+
+
+
+}
+
+
+.conteudo .contender .texto .bloco h5{
+
+
+color: #0076aa;
+font-size: medium;
+padding-left: 8px;
+padding-top: 34px;
+
+
+
+
+}
+
+
+.conteudo .contender .texto .bloco p{
+
+padding-left: 10px;
+padding-top: 20px ;
+
+
+}
+
+
+
+footer nav ul li{
+
+
+
+
+
+
+}
+
+footer{
+
+margin: 0px;
+background-color: #b9e2e9;
+
+
+
+}
+
+footer nav ul{
+
+
+
+display: flex;
+margin: 0px;
+color: #288abc;
+list-style: none;
+padding-right: 110px;
+padding-left: 125px;
+
+
+}
+
+footer nav ul li a{
+
+text-decoration: none;
+color: #0076aa;
+padding: 20px;
+font-size: 11px;
+font-weight: 300;
+    
+}
+
+
+.conteudo .contender .texto .bloco.item_2 p{
+
+
+font-size: smaller;
+
+
+}
+
+
+
+footer nav ul li a:hover{
+
+color: #002434;
+
+
+
+}
+
+
+footer div#rodape p{
+
+font-size: 11px;
+font-weight: lighter;
+padding-top: 10px;
+padding-left: 10px;
+
+
+}
+
+
+
+
+
+
+
+
+
