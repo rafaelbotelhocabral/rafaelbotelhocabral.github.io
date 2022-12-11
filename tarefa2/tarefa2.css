@@ -51,12 +51,11 @@ column-gap: 15px;
 
 .conteudo .texto .bloco{
 
-padding: 15px;
-background-color: #0076aa;
-width: 20%;
-
-
-
+    padding: 15px;
+    background-color: #0076aa;
+    width: 20%;
+    
+    
 }
 
 
@@ -83,7 +82,7 @@ background-image: linear-gradient(#2dc0f5, #288abc);
     color: white;
     padding: 50px;
     font-family: Verdana;
-    background-image:url(../trabalho2/surf2.png) ;
+    background-image:url(../tarefa2/surf2.png) ;
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: 0px -100px;
@@ -249,7 +248,7 @@ font-size: 120%;
     font-size: small;
     margin-left: 2px;
     padding: 24px;
-    padding-bottom: 18px;
+    padding-bottom: 55px;
     
     
 
@@ -260,7 +259,7 @@ font-size: 120%;
 font-size: 65%;
 padding-left: 3px;
 padding-top: 0px;
-background-color: #0076aa;
+
     
 
 }
@@ -352,6 +351,8 @@ color: #288abc;
 list-style: none;
 padding-right: 110px;
 padding-left: 125px;
+padding-top: 15px;
+padding-bottom: 10px;
 
 
 }
@@ -360,7 +361,7 @@ footer nav ul li a{
 
 text-decoration: none;
 color: #0076aa;
-padding: 20px;
+padding: 18px;
 font-size: 11px;
 font-weight: 300;
     
