@@ -7,7 +7,7 @@ main .cabecalho {
 
 main .tarefas {
   position: absolute;
-  bottom: 260px;
+  bottom: 205px;
   left: 800px;
   font-size: 25px;
   font-weight: bolder;
