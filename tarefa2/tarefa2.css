@@ -239,6 +239,10 @@ font-size: 120%;
 
 }
 
+#pastinha {
+    position: absolute;
+    right: 500px;
+}
 
 
 .conteudo .contender .texto .bloco p.depoimento{
@@ -397,6 +401,9 @@ padding-left: 10px;
 
 
 }
+
+
+
 
 
 

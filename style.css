@@ -1,10 +1,36 @@
+main .cabecalho {
+    position: absolute;
+    bottom: 320px;
+    left: 300px;
+    font-size: 16px;
+}
+
+main .tarefas {
+  position: absolute;
+  bottom: 260px;
+  left: 800px;
+  font-size: 25px;
+  font-weight: bolder;
+  border-left: 10px #23232e;
+}
+main h1 {
+  position: absolute;
+  top: 80px;
+  left: 450px;
+  color: #00aaf8;
+}
+
+main .tarefas a:hover {
+  color: #0087bd;
+}
+
 * {
     margin: 0;
     padding: 0;
   }
   
   a {
-    color: #fff;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     transition: 0.3s;
   }
@@ -34,6 +60,7 @@
     height: 92vh;
     text-align: center;
     color: #ffffff;
+
   }
   
   .nav-list {
@@ -114,6 +141,16 @@
 
 
 
-  .h1 {
-    color: #4c4c63;
+  #h1 {
+    color: #03ad00;
+  }
+
+  .a {
+    font-size: medium;
+  }
+
+  .img_cefet {
+    position: absolute;
+    top: 400px;
+    left: 250px;
   }
