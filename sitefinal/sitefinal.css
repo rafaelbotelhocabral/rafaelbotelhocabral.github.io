@@ -1,167 +1,121 @@
 @font-face {
-    font-family: Avenir Next LT Pro Regular;
-    src: url(./font/Avenir\ Next\ LT\ Pro\ Regular.otf);
-}
-
-@font-face {
-    font-family: Aharoni;
-    src: url(./font/ahronbd.ttf);
-}
-
-body {
-    font-family: Avenir Next LT Pro Regular;
-    src: (./font/Avenir\ Next\ LT\ Pro\ Regular.otf);
-    display: block;
-
-}
-
-main .cabecalho {
-  position: absolute;
-  bottom: 320px;
-  left: 300px;
-  font-size: 16px;
-}
-
-main .tarefas {
-position: absolute;
-bottom: 205px;
-left: 800px;
-font-size: 25px;
-font-weight: bolder;
-border-left: 10px #23232e;
-}
-main h1 {
-position: absolute;
-top: 80px;
-left: 450px;
-color: #00aaf8;
-}
-
-main .tarefas a:hover {
-color: #0087bd;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-a {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-  transition: 0.3s;
-}
-
-a:hover {
-  opacity: 0.7;
-}
-
-.logo {
-  font-size: 24px;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-}
-
-nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-  background: #23232e;
-  height: 8vh;
-}
-
-main {
-  background: url("./clean.jpg") no-repeat center center;
-  background-size: cover;
-  height: 92vh;
-  text-align: center;
-  color: #ffffff;
-
-}
-
-.nav-list {
-  list-style: none;
-  display: flex;
-}
-
-.nav-list li {
-  letter-spacing: 3px;
-  margin-left: 32px;
-}
-
-.mobile-menu {
-  display: none;
-  cursor: pointer;
-}
-
-.mobile-menu div {
-  width: 32px;
-  height: 2px;
-  background: #fff;
-  margin: 8px;
-  transition: 0.3s;
-}
-
-@media (max-width: 999px) {
-  body {
-    overflow-x: hidden;
-  }
-  .nav-list {
-    position: absolute;
-    top: 8vh;
-    right: 0;
-    width: 50vw;
-    height: 92vh;
-    background: #23232e;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    transform: translateX(100%);
-    transition: transform 0.3s ease-in;
-  }
-  .nav-list li {
-    margin-left: 0;
-    opacity: 0;
-  }
-  .mobile-menu {
-    display: block;
-  }
-}
-
-.nav-list.active {
-  transform: translateX(0);
-}
-
-@keyframes navLinkFade {
-  from {
-    opacity: 0;
-    transform: translateX(50px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-.mobile-menu.active .line1 {
-  transform: rotate(-45deg) translate(-8px, 8px);
-}
-
-.mobile-menu.active .line2 {
-  opacity: 0;
-}
-
-.mobile-menu.active .line3 {
-  transform: rotate(45deg) translate(-5px, -7px);
+  font-family: Avenir;
+  src: url(./font/Avenir\ Next\ LT\ Pro\ Regular.otf);
 }
 
 
 
-#h1 {
-  color: #03ad00;
+@import url('https://fonts.cdnfonts.com/css/aharoni');
+
+
+              
+
+
+
+body{
+
+padding: 0 10%;
+font-family:Avenir;
+background-color: white;
+
 }
 
-.a {
-  font-size: medium;
+figure .img-fluid {
+
+border-top-left-radius: 50px;
+border-bottom-right-radius: 50px;
+
 }
+
+nav.navbar.navbar-expand-lg.navbar-light a.navbar-brand{
+
+margin-right: 20%;
+
+
+}
+
+header .navbar-nav .nav-item.nav-link{
+
+
+
+  margin-right: 10%;
+  font-weight: bold;
+  color: black;
+
+
+}
+
+header .navbar-nav a.nav-item.nav-link:hover {
+
+
+  color: #FF0000;
+  transition: 0.4s;
+
+
+}
+
+
+
+
+.icone figcaption{
+ 
+  
+position: relative;
+left: 5%;
+bottom: 24px;
+font-family: "aharoni"; 
+margin-left: 20px;           
+ 
+
+
+}
+
+
+main .subtitle{
+
+
+text-align: center;
+font-family: "aharoni";
+
+}
+
+
+.iron{
+
+  color: #FF0000;
+}
+
+
+.captain{
+  color: blue;
+}
+
+.viuva{
+
+color: darkturquoise;
+}
+
+.hulk{
+color: darkgreen;
+}
+
+.thor{
+color: darkgoldenrod;
+
+}
+
+.visao{
+
+color: darkmagenta;
+
+}
+
+
+
+
+
+
+
+
+
+
