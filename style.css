@@ -1,23 +1,5 @@
-main .cabecalho {
-    position: absolute;
-    bottom: 320px;
-    left: 300px;
-    font-size: 16px;
-}
-
-main .tarefas {
-  position: absolute;
-  bottom: 205px;
-  left: 800px;
-  font-size: 25px;
-  font-weight: bolder;
-  border-left: 10px #23232e;
-}
-main h1 {
-  position: absolute;
-  top: 80px;
-  left: 450px;
-  color: #00aaf8;
+main .h5{
+  color: #0087bd;
 }
 
 main .tarefas a:hover {
@@ -40,7 +22,7 @@ main .tarefas a:hover {
   }
   
   .logo {
-    font-size: 24px;
+    font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 4px;
   }
@@ -66,6 +48,8 @@ main .tarefas a:hover {
   .nav-list {
     list-style: none;
     display: flex;
+    margin-top: 1.5%;
+    font-size: 10px;
   }
   
   .nav-list li {
@@ -140,17 +124,39 @@ main .tarefas a:hover {
   }
 
 
-
   #h1 {
     color: #03ad00;
   }
 
-  .a {
-    font-size: medium;
-  }
 
   .img_cefet {
     position: absolute;
     top: 400px;
     left: 250px;
   }
+
+body {
+  text-align: center;
+}
+
+html {
+  font-size: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+}

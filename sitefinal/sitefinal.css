@@ -11,224 +11,157 @@
 body {
     font-family: Avenir Next LT Pro Regular;
     src: (./font/Avenir\ Next\ LT\ Pro\ Regular.otf);
+    display: block;
+
+}
+
+main .cabecalho {
+  position: absolute;
+  bottom: 320px;
+  left: 300px;
+  font-size: 16px;
+}
+
+main .tarefas {
+position: absolute;
+bottom: 205px;
+left: 800px;
+font-size: 25px;
+font-weight: bolder;
+border-left: 10px #23232e;
+}
+main h1 {
+position: absolute;
+top: 80px;
+left: 450px;
+color: #00aaf8;
+}
+
+main .tarefas a:hover {
+color: #0087bd;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-  }
-  
-  a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    transition: 0.3s;
-  }
-  
-  a:hover {
-    opacity: 0.7;
-  }
-  
-  .logo {
-    font-size: 24px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-  }
-  
-  nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-    background: #ffffff;
-    height: 8vh;
-  }
-  
-  main {
-    background: url("./avengers.jpeg") no-repeat center center;
-    border-top-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    background-size: cover;
-    height: 60vh;
-    color: #000000;
-    margin-left: 200px;
-    margin-right: 200px;
+  margin: 0;
+  padding: 0;
+}
 
-  }
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  transition: 0.3s;
+}
 
-  .past {
-    position: absolute;
-    left: 200px;
-    bottom: 165px;
-  }
+a:hover {
+  opacity: 0.7;
+}
 
-  .past .info {
-    position:relative;
-    left: 40px;
-    bottom: 28px;
+.logo {
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
 
-  }
-  
-  .nav-list {
-    list-style: none;
-    display: flex;
-    color: black;
-    text-decoration-color: black;
-  }
-  
-  .nav-list li {
-    letter-spacing: 3px;
-    margin-left: 32px;
-  }
-  
-  .mobile-menu {
-    display: none;
-    cursor: pointer;
-    color: black;
-  }
-  
-  .mobile-menu div {
-    width: 32px;
-    height: 2px;
-    background: rgb(0, 0, 0);
-    margin: 8px;
-    transition: 0.3s;
-  }
-  
-  @media (max-width: 999px) {
-    body {
-      overflow-x: hidden;
-    }
-    .nav-list {
-      position: absolute;
-      top: 8vh;
-      right: 0;
-      width: 50vw;
-      height: 92vh;
-      background: #23232e;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-around;
-      transform: translateX(100%);
-      transition: transform 0.3s ease-in;
-    }
-    .nav-list li {
-      margin-left: 0;
-      opacity: 0;
-    }
-    .mobile-menu {
-      display: block;
-    }
-  }
-  
-  .nav-list.active {
-    transform: translateX(0);
-  }
-  
-  @keyframes navLinkFade {
-    from {
-      opacity: 0;
-      transform: translateX(50px);
-    }
-    to {
-      opacity: 1;
-      transform: translateX(0);
-    }
-  }
-  
-  .mobile-menu.active .line1 {
-    transform: rotate(-45deg) translate(-8px, 8px);
-  }
-  
-  .mobile-menu.active .line2 {
-    opacity: 0;
-  }
-  
-  .mobile-menu.active .line3 {
-    transform: rotate(45deg) translate(-5px, -7px);
-  }
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+  background: #23232e;
+  height: 8vh;
+}
 
-
-
-  .h1 {
-    color: #000000;
-  }
-
-  .logo {
-    position: absolute;
-    left: 200px;
-  }
-
-  .lupa {
-    position: absolute;
-    left: 1200px;
-    top: 17px;
-  }
-
-  .nav-list li a:hover{
-
-    color: #ff0000;
-    
-    }
-
-    .foto_iron {
-        position: relative;
-        top: 600px;
-        left: 200px;
-        text-align: center;
-      }
-
-      .foto_iron .texto-ironman {
-        padding-top: 10px;
-        font-family: Aharoni;
-        color: red;
-      }
-
-    .foto_capitao {
-        position: relative;
-        top: 600px;
-        left: 500px;
-        text-align: center;
-      }
-
-      .foto_capitao .texto-capitao {
-        padding-top: 10px;
-        font-family: Aharoni;
-        color: blue;
-      }
-
-    .foto_visao {
-        position: relative;
-        top: 600px;
-        left: 790px;
-        text-align: center;
-      }
-
-      .foto_visao .texto-visao {
-        padding-top: 10px;
-        font-family: Aharoni;
-        color: #3c0025;
-      }
-
-    .foto_viuva {
-        position: relative;
-        top: 600px;
-        left: 1080px;
-        text-align: center;
-      }
-
-      .foto_viuva .texto-viuvanegra {
-         padding-top: 10px;
-         font-family: Aharoni;
-         color: #000000;
-  
-      }
-
-.footer {
-    background-color: #000000;
-    position: relative;
+main {
+  background: url("./clean.jpg") no-repeat center center;
+  background-size: cover;
+  height: 92vh;
+  text-align: center;
+  color: #ffffff;
 
 }
 
-body {
-    margin: auto;
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-list li {
+  letter-spacing: 3px;
+  margin-left: 32px;
+}
+
+.mobile-menu {
+  display: none;
+  cursor: pointer;
+}
+
+.mobile-menu div {
+  width: 32px;
+  height: 2px;
+  background: #fff;
+  margin: 8px;
+  transition: 0.3s;
+}
+
+@media (max-width: 999px) {
+  body {
+    overflow-x: hidden;
+  }
+  .nav-list {
+    position: absolute;
+    top: 8vh;
+    right: 0;
+    width: 50vw;
+    height: 92vh;
+    background: #23232e;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in;
+  }
+  .nav-list li {
+    margin-left: 0;
+    opacity: 0;
+  }
+  .mobile-menu {
+    display: block;
+  }
+}
+
+.nav-list.active {
+  transform: translateX(0);
+}
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.mobile-menu.active .line1 {
+  transform: rotate(-45deg) translate(-8px, 8px);
+}
+
+.mobile-menu.active .line2 {
+  opacity: 0;
+}
+
+.mobile-menu.active .line3 {
+  transform: rotate(45deg) translate(-5px, -7px);
+}
+
+
+
+#h1 {
+  color: #03ad00;
+}
+
+.a {
+  font-size: medium;
 }
