@@ -80,35 +80,43 @@ font-family: "aharoni";
 }
 
 
-.iron{
+.iron a{
 
   color: #FF0000;
+  text-decoration: none;
 }
 
 
-.captain{
+.captain a{
   color: blue;
+  text-decoration: none;
 }
 
-.viuva{
+.viuva a{
 
 color: darkturquoise;
+text-decoration: none;
 }
 
-.hulk{
+.hulk a{
 color: darkgreen;
+text-decoration: none;
 }
 
-.thor{
+.thor a{
 color: darkgoldenrod;
+text-decoration: none;
 
 }
 
-.visao{
+.visao a{
 
 color: darkmagenta;
+text-decoration: none;
+
 
 }
+
 
 
 

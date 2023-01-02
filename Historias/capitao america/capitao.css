@@ -1,0 +1,155 @@
+@font-face {
+    font-family:ironman ;
+    src: url(../IRON\ MAN\ OF\ WAR\ 2\ NCV.ttf);
+}
+
+
+@font-face {
+    font-family: Avenir;
+    src: url(./font/Avenir\ Next\ LT\ Pro\ Regular.otf);
+}
+
+
+
+@import url('https://fonts.cdnfonts.com/css/aharoni');
+
+
+                
+
+
+
+body{
+
+  padding: 0 10%;
+  font-family:Avenir;
+  background-color: rgb(0, 0, 0);
+  
+  }
+  
+ figure .img-fluid {
+
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+
+ }
+
+ nav.navbar.navbar-expand-lg.navbar-light a.navbar-brand{
+
+margin-right: 20%;
+
+
+ }
+
+ header .navbar-nav .nav-item.nav-link{
+
+
+
+    margin-right: 10%;
+    font-weight: bold;
+    color: rgb(255, 0, 0);
+
+
+ }
+
+ header .navbar-nav a.nav-item.nav-link:hover {
+
+
+    color: #ffffff;
+    transition: 0.4s;
+
+
+ }
+
+ 
+
+
+ .icone figcaption{
+   
+    
+position: relative;
+left: 5%;
+bottom: 24px;
+font-family: "aharoni"; 
+margin-left: 20px;           
+   
+
+
+ }
+
+
+main .subtitle{
+
+
+text-align: center;
+font-family: "aharoni";
+
+}
+
+
+.iron{
+
+    color: #FF0000;
+}
+
+
+.captain{
+    color: blue;
+}
+
+.viuva{
+
+color: darkturquoise;
+}
+
+.hulk{
+color: darkgreen;
+}
+
+.thor{
+color: darkgoldenrod;
+
+}
+
+.visao{
+
+color: darkmagenta;
+
+}
+
+
+.titulo h1{
+
+
+font-family: ironman;
+color: #0572b8;
+font-size: 60px;
+
+}
+
+
+.historia h5,
+.historia p,
+.historia h3{
+
+
+color: rgb(255, 255, 255);
+
+
+}
+
+header a strong{
+
+
+
+color:  #0572b8;
+
+
+}
+
+header a strong:hover{
+
+color: rgb(255, 255, 255);
+
+}
+
+
